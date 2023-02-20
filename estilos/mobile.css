@@ -1,0 +1,168 @@
+@media (max-width: 1036px) {
+
+    .menu{
+        display: none;
+    }
+
+    .redSocial {
+        width: 35px;
+        height: auto;
+        background-color: inherit;
+    }
+
+
+    section{
+        width: 100vw;
+        height: auto;
+        min-height: 500px;
+        padding: 10px 0;
+        flex-direction: column;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .palabra{
+        font-size: 2.5rem;
+    }
+
+    .container-me{
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+    }
+
+    .imagen_me {
+        width: 300px;
+    }
+
+    p{
+        font-size: 18px;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .cards-list {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .card { 
+        width: 110px;
+        height: 200px;
+    }
+
+    .card-fromacion{
+        width: 250px;
+    }
+
+    .logo_institucional{
+        width: 35px;
+        height: 35px;
+    }
+
+    .titulo_formacion,.descrip-formacion{
+        font-size: 15px;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+
+    .skill-img {
+        width: 100px;
+        height: auto;
+        background-color: inherit;
+      }
+      
+      .skill {
+        display: block;
+        justify-content: center;
+        opacity: 0;
+        font-size: 0.5rem;
+        transition: opacity 1500ms;
+        transition: font-size 1500ms;
+        background-color: inherit;
+        padding-top: 10px;
+      }
+      
+      .skill-img:hover ~ .skill {
+        opacity: 1;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        color: rgb(255, 255, 255);
+      }
+      
+      .card:hover .skill {
+        opacity: 1;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        color: rgb(255, 255, 255);
+      }
+
+    .imagen_contacto{
+      width: 300px;
+    }
+
+    .cuerpo{
+        width: 300px;
+    }
+
+    .etiqueta {
+        margin: 0 0;
+        margin-left: 35px;
+    }
+
+    .asunto,.cuerpo{
+        margin-left: 40px;
+    }
+
+    .list-redes {
+        top: 5%;
+      }
+
+    .containerProyectos{
+       flex-direction: column;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .container_contacto{
+        flex-direction: column;
+    }
+
+    .containerProyectos{
+        flex-direction: column;
+     }
+
+     .card-proyecto{
+       width: 300px;
+     }
+
+     .contenidoProyecto{
+        width: 100%;
+     }
+
+     .opcionesProyectos{
+        gap: 5px;
+     }
+     .OpcionProyecto{
+        margin: 4px 2px 2px 2px;
+     }
+
+    .palabra{
+        font-size: 20px;
+        padding: 0 0;
+    }
+
+    .imagen_contacto{
+        width: 200px;
+    }
+}
